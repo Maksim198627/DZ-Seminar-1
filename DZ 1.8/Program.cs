@@ -2,7 +2,7 @@
 string result = "";
 
 Console.WriteLine("Введите число");
-int number1 = int.Parse(Console.ReadLine()!);
+n = int.Parse(Console.ReadLine()!);
 
 if (n > 1)
 {
@@ -11,4 +11,4 @@ if (n > 1)
         if (i == 2) result = i.ToString();
         else result = result + "; " + i;
 }
-Console.WriteLine("Диапазон четных чисел ");
+Console.WriteLine("Диапазон четных чисел " + result);
