@@ -1,4 +1,4 @@
-﻿int n =  ;
+﻿int n ;
 string result = "";
 
 Console.WriteLine("Введите число");
