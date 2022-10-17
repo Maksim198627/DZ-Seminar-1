@@ -1,13 +1,14 @@
-﻿Int n = "";
-int result = "";
+﻿int n =  ;
+string result = "";
+
 Console.WriteLine("Введите число");
 int number1 = int.Parse(Console.ReadLine()!);
 
-if (number1 > 1)
+if (n > 1)
 {
-    for (int i = 2, i <= n, i += 2)
+    for (int i = 2; i <= n; i += 2)
 
-        if (i == 2) result = i;
-        else result = "; " + i;
+        if (i == 2) result = i.ToString();
+        else result = result + "; " + i;
 }
 Console.WriteLine("Диапазон четных чисел ");
